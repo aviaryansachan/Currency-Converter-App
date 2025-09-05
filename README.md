@@ -3,10 +3,10 @@
 ## DESCRIPTION
 This is a simple currency converter calculator app.
 
-## TECHNOLOGIES USES
+## TECHNOLOGIES USED
 - HTML
 - CSS
-- - Java Script
+- Java Script
 
 ## PREVIEW
 <p align="center">

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> currency converter </title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2> Currency Converter Calculator</h2>
+        <form action="" method="get">
+            <div class="amount">
+                <p> Enter Amount</p>
+                <input type="text" value="1">
+            </div>
+            <div class="dropdown">
+                <div class="from">
+                    <p>From</p>
+                    <div class="from1">
+                        <img src="https://flagsapi.com/US/flat/64.png" alt="img">
+                        <select name="countryfrom" id="countryname">
+                            <!-- <option value="US">USD</option> -->
+                            <!-- <option value="INDIA">INR</option> -->
+                            <!-- <option value="RUSSIA">RUSSIA</option> -->
+                            <!-- <option value="EUROPE">EURO</option> -->
+                        </select>
+                    </div>
+                </div>
+                <i class="ri-arrow-left-right-line"></i>
+                <div class="to">
+                    <p>To</p>
+                    <div class="to1">
+                        <img src="https://flagsapi.com/IN/flat/64.png" alt="img">
+                        <select name="countryto" id="countryname">
+                            <!-- <option value="IN">INR</option> -->
+                            <!-- <option value="EUROPE">EURO</option> -->
+                            <!-- <option value="RUSSIA">RUSSIA</option> -->
+                            <!-- <option value="USA">DOLLAR</option> -->
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="msg"> 1 US = 86.25 INR</div>
+            <button>Get Exchange Rate</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
